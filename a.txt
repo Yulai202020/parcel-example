@@ -1,0 +1,2 @@
+--out-dir <build_dir>
+--no-source-maps
