@@ -3,8 +3,20 @@ html(lang='en')
  head
    title Salam
    script(type="module" src="index.ts")
-   link(rel="stylesheet" href="style.scss")
+   link(rel="stylesheet" href="main.scss")
  body
-   h1 Salam
-   div.remark
-     p Pug rocks!
+    header
+        nav
+            ul
+                li
+                    a(href="/") Home
+                li
+                    a(href="https://github.com/Yulai202020/") Github
+                li
+                    a(href="https://www.youtube.com/@yulainigmatullin5050") Youtube
+                li
+                    a(href="https://www.frontendmentor.io/profile/Yulai202020") Frontend Mentor
+                li
+                    a(href="/resources/src/") Resources
+    main
+        p Hello world!
